@@ -79,3 +79,41 @@ print(dicionario["chave1"])
 print(dicionario["chave2"])
 
 # %%
+#Listas
+alunos = ["joao", "maria", "pedro"]
+for i in alunos:#alunos[1:]:
+    print(i)
+# %%
+len(alunos)
+# %%
+alunos = ["joao", "maria", "pedro"]
+alunos.append("jose")
+print(alunos)
+
+# %%
+help(list)
+# %%
+#tuplas
+tupla = ("joao", "maria", "pedro")
+print(tupla[2])
+# %%
+tupla = ("joao", "maria", "pedro")
+print(tupla[1])
+
+# %%
+tupla = ("joao", "maria", "pedro")
+print(tupla[0:2])
+# %%
+tupla = ("joao", "maria", "pedro")
+print(tupla[1:])
+
+# %%
+for i in tupla[1:]:
+    print(i)
+# %%
+#string
+frase = "Ola mundo"
+for i in frase:
+    print(i)
+
+# %%

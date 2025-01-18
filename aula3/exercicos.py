@@ -271,3 +271,10 @@ valor_parada = 40
 
 processar_lista(lista, valor_parada)
 # %%
+x = 2
+if x < 0:
+    print("x is negative")
+elif x == 0:
+    print("x is zero")
+else:
+    print("x is positive")
